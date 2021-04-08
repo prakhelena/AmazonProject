@@ -10,7 +10,7 @@ import io.cucumber.junit.CucumberOptions.SnippetType;
 @CucumberOptions (
 		
 		    
-		tags = "@test",
+		tags = "@api",
 		
 		features = "src/test/resources/features",  // feature file folder path
 		glue = "step_definitions", // step def classes folder path
@@ -33,6 +33,6 @@ import io.cucumber.junit.CucumberOptions.SnippetType;
 		)
 
 
-public class ElenaCukeRunner {
+public class ApiCukeRunner {
 
 }

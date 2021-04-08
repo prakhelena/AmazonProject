@@ -5,7 +5,7 @@
    
 	Scenario: Get information for employee
 	   When User send Get request for employee with id"1"
-       Then User receives JSON responce for this employee
+       Then User receives JSON responce for this employee and employee's name should be "Tiger Nixon"
        
        
   

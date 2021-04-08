@@ -8,5 +8,5 @@ When The user enters book name "qa testing for beginners" and press enter
 And The user clicks on 1st item in the listed results
 And The user should verify the price for the chosen item
 Then The user clicks on Add to Cart and proceed to checkout
-And Verify checkout price with price on second page
+#And Verify checkout price with price on second page
 

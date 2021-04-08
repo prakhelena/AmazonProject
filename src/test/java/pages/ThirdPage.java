@@ -17,9 +17,6 @@ public class ThirdPage {
 	@FindBy (xpath = "//*[@id=\"newBuyBoxPrice\"]")
 	public WebElement bookPriceThirdPage;
 	
-//	@FindBy (xpath = "//*[@id="add-to-cart-button"]")
-//	public WebElement ;
-	
 	@FindBy (id = "add-to-cart-button")
 	public WebElement addToCart;
 	

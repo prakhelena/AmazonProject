@@ -2,7 +2,7 @@ package step_definitions;
 import static io.restassured.RestAssured.given;
 import static org.hamcrest.Matchers.equalTo;
 import static org.hamcrest.Matchers.is;
-
+import static org.junit.Assert.assertEquals;
 import java.util.Map;
 
 import io.cucumber.java.en.Given;
@@ -13,10 +13,6 @@ import io.restassured.response.Response;
 import io.restassured.specification.RequestSpecification;
 
 public class APITest {
-//	static {
-//		RestAssured.baseURI = "http://dummy.restapiexample.com";
-//	   }
-	
 	
 	RequestSpecification requestSpecification;
 	Response response;
@@ -31,9 +27,9 @@ public class APITest {
 	public void userSendGetRequestForEmployeeWith(String string) {
 		response = requestSpecification.when().log().all().get("/api/v1/employee/1");
 	}
-
-	@Then("User receives JSON responce for this employee")
-	public void userRecievesJSONResponceForThisEmployee() {
+	
+		@Then("User receives JSON responce for this employee and employee's name should be {string}")
+	public void userReceivesJSONResponceForThisEmployeeAndEmployeeSNameShouldBe(String string) {
 		Map mapNew = response.then().log().all().
                 assertThat().statusCode(is(200)).body("status", equalTo("success")).extract().as(Map.class);
                 
@@ -42,12 +38,12 @@ public class APITest {
        Map dataOfEmployee = (Map) mapNew.get("data");
        String empName = (String)dataOfEmployee.get("employee_name");
        System.out.println(empName);
+       
+       assertEquals(string, empName);
 	}
-
-	
-
-	
-	
+		
+		
+		
 	@When("User send Delete request for employee with id {string}")
 	public void userSendDeleteRequestForEmployeeWithId(String string) {
 		response = requestSpecification.when().log().all().delete("/public/api/v1/delete/1");

@@ -52,22 +52,7 @@ public class Driver {
 				WebDriverManager.iedriver().setup();
 				drivers.set(new InternetExplorerDriver());
 				break;
-			case "headlesschrome":
-				WebDriverManager.chromedriver().setup();
-				ChromeOptions options = new ChromeOptions();
-				options.addArguments("--headless");
-				options.addArguments("--disable-gpu"); // option that must be added only for Windows systems
-				drivers.set(new ChromeDriver(options));
-				break;	
-			case "headlessfirefox":
-				WebDriverManager.firefoxdriver().setup();
-				FirefoxOptions foptions = new FirefoxOptions();
-	            foptions.addArguments("--headless");
-	            drivers.set(new FirefoxDriver(foptions));
-				break;	
-			case "htmlunit":
-				drivers.set(new HtmlUnitDriver(true)); //true --> enables JavaScript
-				break;		
+			
 				
 			default:
 				System.out.println("Wrong driver");

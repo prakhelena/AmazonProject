@@ -17,9 +17,6 @@ public class SecondPage {
 	@FindBy (xpath = "//*[@id=\"search\"]/div[1]/div/div[1]/div/span[3]/div[2]/div[2]/div/span/div/div/div/div/span/a/div/img")
 	public WebElement book;
 	
-	@FindBy (xpath = "//*[@id=\"search\"]/div[1]/div/div[1]/div/span[3]/div[2]/div[2]/div/span/div/div/div/div/div[4]/div[2]/a/span[1]/span[2]")
-	public WebElement bookPrice;
-	
 	@FindBy (xpath = "//*[@id=\"search\"]/div[1]/div/div[1]/div/span[3]/div[2]/div[2]/div/span/div/div/div/div/div[4]/div[2]/a/span[1]/span[2]/span[2]")
 	public WebElement firstHalfOfPrice;
 	

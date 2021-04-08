@@ -1,0 +1,214 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "line": 3,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 690000000,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "Url",
+            "match": {
+              "location": "step_definitions.APITest.url()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-04-08T01:33:48.130Z",
+        "before": [
+          {
+            "result": {
+              "duration": 2956000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "step_definitions.Hooks.setupScenario()"
+            }
+          }
+        ],
+        "line": 6,
+        "name": "Get information for employee",
+        "description": "",
+        "id": "check-get-and-delete-http-methods;get-information-for-employee",
+        "after": [
+          {
+            "embeddings": [
+              {
+                "data": "iVBORw0KGgoAAAANSUhEUgAABkAAAALpCAYAAADrUOqSAAAAAXNSR0IArs4c6QAAGN5JREFUeJzs2cEJACAQwDB1/53PJQShJBP03z0zswAAAAAAAELO7wAAAAAAAIDXDBAAAAAAACDHAAEAAAAAAHIMEAAAAAAAIMcAAQAAAAAAcgwQAAAAAAAgxwABAAAAAAByDBAAAAAAACDHAAEAAAAAAHIMEAAAAAAAIMcAAQAAAAAAcgwQAAAAAAAgxwABAAAAAAByDBAAAAAAACDHAAEAAAAAAHIMEAAAAAAAIMcAAQAAAAAAcgwQAAAAAAAgxwABAAAAAAByDBAAAAAAACDHAAEAAAAAAHIMEAAAAAAAIMcAAQAAAAAAcgwQAAAAAAAgxwABAAAAAAByDBAAAAAAACDHAAEAAAAAAHIMEAAAAAAAIMcAAQAAAAAAcgwQAAAAAAAgxwABAAAAAAByDBAAAAAAACDHAAEAAAAAAHIMEAAAAAAAIMcAAQAAAAAAcgwQAAAAAAAgxwABAAAAAAByDBAAAAAAACDHAAEAAAAAAHIMEAAAAAAAIMcAAQAAAAAAcgwQAAAAAAAgxwABAAAAAAByDBAAAAAAACDHAAEAAAAAAHIMEAAAAAAAIMcAAQAAAAAAcgwQAAAAAAAgxwABAAAAAAByDBAAAAAAACDHAAEAAAAAAHIMEAAAAAAAIMcAAQAAAAAAcgwQAAAAAAAgxwABAAAAAAByDBAAAAAAACDHAAEAAAAAAHIMEAAAAAAAIMcAAQAAAAAAcgwQAAAAAAAgxwABAAAAAAByDBAAAAAAACDHAAEAAAAAAHIMEAAAAAAAIMcAAQAAAAAAcgwQAAAAAAAgxwABAAAAAAByDBAAAAAAACDHAAEAAAAAAHIMEAAAAAAAIMcAAQAAAAAAcgwQAAAAAAAgxwABAAAAAAByDBAAAAAAACDHAAEAAAAAAHIMEAAAAAAAIMcAAQAAAAAAcgwQAAAAAAAgxwABAAAAAAByDBAAAAAAACDHAAEAAAAAAHIMEAAAAAAAIMcAAQAAAAAAcgwQAAAAAAAgxwABAAAAAAByDBAAAAAAACDHAAEAAAAAAHIMEAAAAAAAIMcAAQAAAAAAcgwQAAAAAAAgxwABAAAAAAByDBAAAAAAACDHAAEAAAAAAHIMEAAAAAAAIMcAAQAAAAAAcgwQAAAAAAAgxwABAAAAAAByDBAAAAAAACDHAAEAAAAAAHIMEAAAAAAAIMcAAQAAAAAAcgwQAAAAAAAgxwABAAAAAAByDBAAAAAAACDHAAEAAAAAAHIMEAAAAAAAIMcAAQAAAAAAcgwQAAAAAAAgxwABAAAAAAByDBAAAAAAACDHAAEAAAAAAHIMEAAAAAAAIMcAAQAAAAAAcgwQAAAAAAAgxwABAAAAAAByDBAAAAAAACDHAAEAAAAAAHIMEAAAAAAAIMcAAQAAAAAAcgwQAAAAAAAgxwABAAAAAAByDBAAAAAAACDHAAEAAAAAAHIMEAAAAAAAIMcAAQAAAAAAcgwQAAAAAAAgxwABAAAAAAByDBAAAAAAACDHAAEAAAAAAHIMEAAAAAAAIMcAAQAAAAAAcgwQAAAAAAAgxwABAAAAAAByDBAAAAAAACDHAAEAAAAAAHIMEAAAAAAAIMcAAQAAAAAAcgwQAAAAAAAgxwABAAAAAAByDBAAAAAAACDHAAEAAAAAAHIMEAAAAAAAIMcAAQAAAAAAcgwQAAAAAAAgxwABAAAAAAByDBAAAAAAACDHAAEAAAAAAHIMEAAAAAAAIMcAAQAAAAAAcgwQAAAAAAAgxwABAAAAAAByDBAAAAAAACDHAAEAAAAAAHIMEAAAAAAAIMcAAQAAAAAAcgwQAAAAAAAgxwABAAAAAAByDBAAAAAAACDHAAEAAAAAAHIMEAAAAAAAIMcAAQAAAAAAcgwQAAAAAAAgxwABAAAAAAByDBAAAAAAACDHAAEAAAAAAHIMEAAAAAAAIMcAAQAAAAAAcgwQAAAAAAAgxwABAAAAAAByDBAAAAAAACDHAAEAAAAAAHIMEAAAAAAAIMcAAQAAAAAAcgwQAAAAAAAgxwABAAAAAAByDBAAAAAAACDHAAEAAAAAAHIMEAAAAAAAIMcAAQAAAAAAcgwQAAAAAAAgxwABAAAAAAByDBAAAAAAACDHAAEAAAAAAHIMEAAAAAAAIMcAAQAAAAAAcgwQAAAAAAAgxwABAAAAAAByDBAAAAAAACDHAAEAAAAAAHIMEAAAAAAAIMcAAQAAAAAAcgwQAAAAAAAgxwABAAAAAAByDBAAAAAAACDHAAEAAAAAAHIMEAAAAAAAIMcAAQAAAAAAcgwQAAAAAAAgxwABAAAAAAByDBAAAAAAACDHAAEAAAAAAHIMEAAAAAAAIMcAAQAAAAAAcgwQAAAAAAAgxwABAAAAAAByDBAAAAAAACDHAAEAAAAAAHIMEAAAAAAAIMcAAQAAAAAAcgwQAAAAAAAgxwABAAAAAAByDBAAAAAAACDHAAEAAAAAAHIMEAAAAAAAIMcAAQAAAAAAcgwQAAAAAAAgxwABAAAAAAByDBAAAAAAACDHAAEAAAAAAHIMEAAAAAAAIMcAAQAAAAAAcgwQAAAAAAAgxwABAAAAAAByDBAAAAAAACDHAAEAAAAAAHIMEAAAAAAAIMcAAQAAAAAAcgwQAAAAAAAgxwABAAAAAAByDBAAAAAAACDHAAEAAAAAAHIMEAAAAAAAIMcAAQAAAAAAcgwQAAAAAAAgxwABAAAAAAByDBAAAAAAACDHAAEAAAAAAHIMEAAAAAAAIMcAAQAAAAAAcgwQAAAAAAAgxwABAAAAAAByDBAAAAAAACDHAAEAAAAAAHIMEAAAAAAAIMcAAQAAAAAAcgwQAAAAAAAgxwABAAAAAAByDBAAAAAAACDHAAEAAAAAAHIMEAAAAAAAIMcAAQAAAAAAcgwQAAAAAAAgxwABAAAAAAByDBAAAAAAACDHAAEAAAAAAHIMEAAAAAAAIMcAAQAAAAAAcgwQAAAAAAAgxwABAAAAAAByDBAAAAAAACDHAAEAAAAAAHIMEAAAAAAAIMcAAQAAAAAAcgwQAAAAAAAgxwABAAAAAAByDBAAAAAAACDHAAEAAAAAAHIMEAAAAAAAIMcAAQAAAAAAcgwQAAAAAAAgxwABAAAAAAByDBAAAAAAACDHAAEAAAAAAHIMEAAAAAAAIMcAAQAAAAAAcgwQAAAAAAAgxwABAAAAAAByDBAAAAAAACDHAAEAAAAAAHIMEAAAAAAAIMcAAQAAAAAAcgwQAAAAAAAgxwABAAAAAAByDBAAAAAAACDHAAEAAAAAAHIMEAAAAAAAIMcAAQAAAAAAcgwQAAAAAAAgxwABAAAAAAByDBAAAAAAACDHAAEAAAAAAHIMEAAAAAAAIMcAAQAAAAAAcgwQAAAAAAAgxwABAAAAAAByDBAAAAAAACDHAAEAAAAAAHIMEAAAAAAAIMcAAQAAAAAAcgwQAAAAAAAgxwABAAAAAAByDBAAAAAAACDHAAEAAAAAAHIMEAAAAAAAIMcAAQAAAAAAcgwQAAAAAAAgxwABAAAAAAByDBAAAAAAACDHAAEAAAAAAHIMEAAAAAAAIMcAAQAAAAAAcgwQAAAAAAAgxwABAAAAAAByDBAAAAAAACDHAAEAAAAAAHIMEAAAAAAAIMcAAQAAAAAAcgwQAAAAAAAgxwABAAAAAAByDBAAAAAAACDHAAEAAAAAAHIMEAAAAAAAIMcAAQAAAAAAcgwQAAAAAAAgxwABAAAAAAByDBAAAAAAACDHAAEAAAAAAHIMEAAAAAAAIMcAAQAAAAAAcgwQAAAAAAAgxwABAAAAAAByDBAAAAAAACDHAAEAAAAAAHIMEAAAAAAAIMcAAQAAAAAAcgwQAAAAAAAgxwABAAAAAAByDBAAAAAAACDHAAEAAAAAAHIMEAAAAAAAIMcAAQAAAAAAcgwQAAAAAAAgxwABAAAAAAByDBAAAAAAACDHAAEAAAAAAHIMEAAAAAAAIMcAAQAAAAAAcgwQAAAAAAAgxwABAAAAAAByDBAAAAAAACDHAAEAAAAAAHIMEAAAAAAAIMcAAQAAAAAAcgwQAAAAAAAgxwABAAAAAAByDBAAAAAAACDHAAEAAAAAAHIMEAAAAAAAIMcAAQAAAAAAcgwQAAAAAAAgxwABAAAAAAByDBAAAAAAACDHAAEAAAAAAHIMEAAAAAAAIMcAAQAAAAAAcgwQAAAAAAAgxwABAAAAAAByDBAAAAAAACDHAAEAAAAAAHIMEAAAAAAAIMcAAQAAAAAAcgwQAAAAAAAgxwABAAAAAAByDBAAAAAAACDHAAEAAAAAAHIMEAAAAAAAIMcAAQAAAAAAcgwQAAAAAAAgxwABAAAAAAByDBAAAAAAACDHAAEAAAAAAHIMEAAAAAAAIMcAAQAAAAAAcgwQAAAAAAAgxwABAAAAAAByDBAAAAAAACDHAAEAAAAAAHIMEAAAAAAAIMcAAQAAAAAAcgwQAAAAAAAgxwABAAAAAAByDBAAAAAAACDHAAEAAAAAAHIMEAAAAAAAIMcAAQAAAAAAcgwQAAAAAAAgxwABAAAAAAByDBAAAAAAACDHAAEAAAAAAHIMEAAAAAAAIMcAAQAAAAAAcgwQAAAAAAAgxwABAAAAAAByDBAAAAAAACDHAAEAAAAAAHIMEAAAAAAAIMcAAQAAAAAAcgwQAAAAAAAgxwABAAAAAAByDBAAAAAAACDHAAEAAAAAAHIMEAAAAAAAIMcAAQAAAAAAcgwQAAAAAAAgxwABAAAAAAByDBAAAAAAACDHAAEAAAAAAHIMEAAAAAAAIMcAAQAAAAAAcgwQAAAAAAAgxwABAAAAAAByDBAAAAAAACDHAAEAAAAAAHIMEAAAAAAAIMcAAQAAAAAAcgwQAAAAAAAgxwABAAAAAAByDBAAAAAAACDHAAEAAAAAAHIMEAAAAAAAIMcAAQAAAAAAcgwQAAAAAAAgxwABAAAAAAByDBAAAAAAACDHAAEAAAAAAHIMEAAAAAAAIMcAAQAAAAAAcgwQAAAAAAAgxwABAAAAAAByDBAAAAAAACDHAAEAAAAAAHIMEAAAAAAAIMcAAQAAAAAAcgwQAAAAAAAgxwABAAAAAAByDBAAAAAAACDHAAEAAAAAAHIMEAAAAAAAIMcAAQAAAAAAcgwQAAAAAAAgxwABAAAAAAByDBAAAAAAACDHAAEAAAAAAHIMEAAAAAAAIMcAAQAAAAAAcgwQAAAAAAAgxwABAAAAAAByDBAAAAAAACDHAAEAAAAAAHIMEAAAAAAAIMcAAQAAAAAAcgwQAAAAAAAgxwABAAAAAAByDBAAAAAAACDHAAEAAAAAAHIMEAAAAAAAIMcAAQAAAAAAcgwQAAAAAAAgxwABAAAAAAByDBAAAAAAACDHAAEAAAAAAHIMEAAAAAAAIMcAAQAAAAAAcgwQAAAAAAAgxwABAAAAAAByDBAAAAAAACDHAAEAAAAAAHIMEAAAAAAAIMcAAQAAAAAAcgwQAAAAAAAgxwABAAAAAAByDBAAAAAAACDHAAEAAAAAAHIMEAAAAAAAIMcAAQAAAAAAcgwQAAAAAAAgxwABAAAAAAByDBAAAAAAACDHAAEAAAAAAHIMEAAAAAAAIMcAAQAAAAAAcgwQAAAAAAAgxwABAAAAAAByDBAAAAAAACDHAAEAAAAAAHIMEAAAAAAAIMcAAQAAAAAAcgwQAAAAAAAgxwABAAAAAAByDBAAAAAAACDHAAEAAAAAAHIMEAAAAAAAIMcAAQAAAAAAcgwQAAAAAAAgxwABAAAAAAByDBAAAAAAACDHAAEAAAAAAHIMEAAAAAAAIMcAAQAAAAAAcgwQAAAAAAAgxwABAAAAAAByDBAAAAAAACDHAAEAAAAAAHIMEAAAAAAAIMcAAQAAAAAAcgwQAAAAAAAgxwABAAAAAAByDBAAAAAAACDHAAEAAAAAAHIMEAAAAAAAIMcAAQAAAAAAcgwQAAAAAAAgxwABAAAAAAByDBAAAAAAACDHAAEAAAAAAHIMEAAAAAAAIMcAAQAAAAAAcgwQAAAAAAAgxwABAAAAAAByDBAAAAAAACDHAAEAAAAAAHIMEAAAAAAAIMcAAQAAAAAAcgwQAAAAAAAgxwABAAAAAAByDBAAAAAAACDHAAEAAAAAAHIMEAAAAAAAIMcAAQAAAAAAcgwQAAAAAAAgxwABAAAAAAByDBAAAAAAACDHAAEAAAAAAHIMEAAAAAAAIMcAAQAAAAAAcgwQAAAAAAAgxwABAAAAAAByDBAAAAAAACDHAAEAAAAAAHIMEAAAAAAAIMcAAQAAAAAAcgwQAAAAAAAgxwABAAAAAAByDBAAAAAAACDHAAEAAAAAAHIMEAAAAAAAIMcAAQAAAAAAcgwQAAAAAAAgxwABAAAAAAByDBAAAAAAACDHAAEAAAAAAHIMEAAAAAAAIMcAAQAAAAAAcgwQAAAAAAAgxwABAAAAAAByDBAAAAAAACDHAAEAAAAAAHIMEAAAAAAAIMcAAQAAAAAAcgwQAAAAAAAgxwABAAAAAAByDBAAAAAAACDHAAEAAAAAAHIMEAAAAAAAIMcAAQAAAAAAcgwQAAAAAAAgxwABAAAAAAByDBAAAAAAACDHAAEAAAAAAHIMEAAAAAAAIMcAAQAAAAAAcgwQAAAAAAAgxwABAAAAAAByDBAAAAAAACDHAAEAAAAAAHIMEAAAAAAAIMcAAQAAAAAAcgwQAAAAAAAgxwABAAAAAAByDBAAAAAAACDHAAEAAAAAAHIMEAAAAAAAIMcAAQAAAAAAcgwQAAAAAAAgxwABAAAAAAByDBAAAAAAACDHAAEAAAAAAHIMEAAAAAAAIMcAAQAAAAAAcgwQAAAAAAAgxwABAAAAAAByDBAAAAAAACDHAAEAAAAAAHIMEAAAAAAAIMcAAQAAAAAAcgwQAAAAAAAgxwABAAAAAAByDBAAAAAAACDHAAEAAAAAAHIMEAAAAAAAIMcAAQAAAAAAcgwQAAAAAAAgxwABAAAAAAByDBAAAAAAACDHAAEAAAAAAHIMEAAAAAAAIMcAAQAAAAAAcgwQAAAAAAAgxwABAAAAAAByDBAAAAAAACDHAAEAAAAAAHIMEAAAAAAAIMcAAQAAAAAAcgwQAAAAAAAgxwABAAAAAAByDBAAAAAAACDHAAEAAAAAAHIMEAAAAAAAIMcAAQAAAAAAcgwQAAAAAAAgxwABAAAAAAByDBAAAAAAACDHAAEAAAAAAHIMEAAAAAAAIMcAAQAAAAAAcgwQAAAAAAAgxwABAAAAAAByDBAAAAAAACDHAAEAAAAAAHIMEAAAAAAAIMcAAQAAAAAAcgwQAAAAAAAgxwABAAAAAAByDBAAAAAAACDHAAEAAAAAAHIMEAAAAAAAIMcAAQAAAAAAcgwQAAAAAAAgxwABAAAAAAByDBAAAAAAACDHAAEAAAAAAHIMEAAAAAAAIMcAAQAAAAAAcgwQAAAAAAAg57ZnBzIAAAAAg/yt7/GVRgIEAAAAAADYESAAAAAAAMCOAAEAAAAAAHYECAAAAAAAsCNAAAAAAACAHQECAAAAAADsCBAAAAAAAGBHgAAAAAAAADsCBAAAAAAA2BEgAAAAAADAjgABAAAAAAB2BAgAAAAAALAjQAAAAAAAgB0BAgAAAAAA7AgQAAAAAABgR4AAAAAAAAA7AgQAAAAAANgRIAAAAAAAwI4AAQAAAAAAdgQIAAAAAACwI0AAAAAAAIAdAQIAAAAAAOwIEAAAAAAAYEeAAAAAAAAAOwIEAAAAAADYESAAAAAAAMCOAAEAAAAAAHYECAAAAAAAsCNAAAAAAACAHQECAAAAAADsCBAAAAAAAGBHgAAAAAAAADsCBAAAAAAA2BEgAAAAAADAjgABAAAAAAB2BAgAAAAAALAjQAAAAAAAgB0BAgAAAAAA7AgQAAAAAABgR4AAAAAAAAA7AgQAAAAAANgRIAAAAAAAwI4AAQAAAAAAdgQIAAAAAACwI0AAAAAAAIAdAQIAAAAAAOwIEAAAAAAAYEeAAAAAAAAAOwIEAAAAAADYESAAAAAAAMCOAAEAAAAAAHYECAAAAAAAsCNAAAAAAACAHQECAAAAAADsCBAAAAAAAGBHgAAAAAAAADsCBAAAAAAA2BEgAAAAAADAjgABAAAAAAB2BAgAAAAAALAjQAAAAAAAgB0BAgAAAAAA7AgQAAAAAABgR4AAAAAAAAA7AgQAAAAAANgRIAAAAAAAwI4AAQAAAAAAdgQIAAAAAACwI0AAAAAAAIAdAQIAAAAAAOwIEAAAAAAAYEeAAAAAAAAAOwIEAAAAAADYESAAAAAAAMCOAAEAAAAAAHYECAAAAAAAsCNAAAAAAACAHQECAAAAAADsCBAAAAAAAGBHgAAAAAAAADsCBAAAAAAA2BEgAAAAAADAjgABAAAAAAB2BAgAAAAAALAjQAAAAAAAgB0BAgAAAAAA7AgQAAAAAABgR4AAAAAAAAA7AgQAAAAAANgRIAAAAAAAwE7ajAnOMaVpFgAAAABJRU5ErkJggg\u003d\u003d",
+                "mime_type": "image/png",
+                "name": "Screenshot20210407093354"
+              }
+            ],
+            "result": {
+              "duration": 2426000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "step_definitions.Hooks.tearDownScenario(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1924000000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "User send Get request for employee with id\"1\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"1\"",
+                  "offset": 42
+                }
+              ],
+              "location": "step_definitions.APITest.userSendGetRequestForEmployeeWith(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "error_message": "java.lang.AssertionError: 1 expectation failed.\nExpected status code is \u003c200\u003e but was \u003c429\u003e.\n\r\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\r\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)\r\n\tat sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)\r\n\tat java.lang.reflect.Constructor.newInstance(Unknown Source)\r\n\tat org.codehaus.groovy.reflection.CachedConstructor.invoke(CachedConstructor.java:72)\r\n\tat org.codehaus.groovy.reflection.CachedConstructor.doConstructorInvoke(CachedConstructor.java:59)\r\n\tat org.codehaus.groovy.runtime.callsite.ConstructorSite$ConstructorSiteNoUnwrap.callConstructor(ConstructorSite.java:84)\r\n\tat org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCallConstructor(CallSiteArray.java:59)\r\n\tat org.codehaus.groovy.runtime.callsite.AbstractCallSite.callConstructor(AbstractCallSite.java:263)\r\n\tat org.codehaus.groovy.runtime.callsite.AbstractCallSite.callConstructor(AbstractCallSite.java:277)\r\n\tat io.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure.validate(ResponseSpecificationImpl.groovy:493)\r\n\tat io.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure$validate$1.call(Unknown Source)\r\n\tat org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:47)\r\n\tat org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:125)\r\n\tat org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:139)\r\n\tat io.restassured.internal.ResponseSpecificationImpl.validateResponseIfRequired(ResponseSpecificationImpl.groovy:674)\r\n\tat sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)\r\n\tat sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)\r\n\tat sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)\r\n\tat java.lang.reflect.Method.invoke(Unknown Source)\r\n\tat org.codehaus.groovy.runtime.callsite.PlainObjectMetaMethodSite.doInvoke(PlainObjectMetaMethodSite.java:43)\r\n\tat org.codehaus.groovy.runtime.callsite.PogoMetaMethodSite$PogoCachedMethodSiteNoUnwrapNoCoerce.invoke(PogoMetaMethodSite.java:193)\r\n\tat org.codehaus.groovy.runtime.callsite.PogoMetaMethodSite.callCurrent(PogoMetaMethodSite.java:61)\r\n\tat org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCallCurrent(CallSiteArray.java:51)\r\n\tat org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:171)\r\n\tat org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:185)\r\n\tat io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy:126)\r\n\tat io.restassured.internal.ValidatableResponseOptionsImpl.statusCode(ValidatableResponseOptionsImpl.java:84)\r\n\tat io.restassured.internal.ValidatableResponseImpl.super$2$statusCode(ValidatableResponseImpl.groovy)\r\n\tat sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)\r\n\tat sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)\r\n\tat sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)\r\n\tat java.lang.reflect.Method.invoke(Unknown Source)\r\n\tat org.codehaus.groovy.reflection.CachedMethod.invoke(CachedMethod.java:107)\r\n\tat groovy.lang.MetaMethod.doMethodInvoke(MetaMethod.java:323)\r\n\tat groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1268)\r\n\tat org.codehaus.groovy.runtime.ScriptBytecodeAdapter.invokeMethodOnSuperN(ScriptBytecodeAdapter.java:144)\r\n\tat io.restassured.internal.ValidatableResponseImpl.statusCode(ValidatableResponseImpl.groovy:136)\r\n\tat io.restassured.internal.ValidatableResponseImpl.statusCode(ValidatableResponseImpl.groovy)\r\n\tat step_definitions.APITest.userRecievesJSONResponceForThisEmployee(APITest.java:38)\r\n\tat ✽.User receives JSON responce for this employee(file:///C:/Users/Elena%20P/eclipse-workspace/AmazonProject/src/test/resources/features/elenaAPITesting.feature:8)\r\n",
+              "duration": 454000000,
+              "status": "failed"
+            },
+            "line": 8,
+            "name": "User receives JSON responce for this employee",
+            "match": {
+              "location": "step_definitions.APITest.userRecievesJSONResponceForThisEmployee()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@api"
+          }
+        ]
+      },
+      {
+        "line": 3,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 2000000,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "Url",
+            "match": {
+              "location": "step_definitions.APITest.url()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-04-08T01:33:56.705Z",
+        "before": [
+          {
+            "result": {
+              "duration": 1743000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "step_definitions.Hooks.setupScenario()"
+            }
+          }
+        ],
+        "line": 12,
+        "name": "Delete information for employee",
+        "description": "",
+        "id": "check-get-and-delete-http-methods;delete-information-for-employee",
+        "after": [
+          {
+            "result": {
+              "duration": 679000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "step_definitions.Hooks.tearDownScenario(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 671000000,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "User send Delete request for employee with id \"1\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"1\"",
+                  "offset": 46
+                }
+              ],
+              "location": "step_definitions.APITest.userSendDeleteRequestForEmployeeWithId(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 957000000,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "User receives message \"Successfully! Record has been deleted\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Successfully! Record has been deleted\"",
+                  "offset": 22
+                }
+              ],
+              "location": "step_definitions.APITest.userReceivesMessage(java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@api"
+          }
+        ]
+      }
+    ],
+    "name": "Check Get and Delete http methods",
+    "description": "",
+    "id": "check-get-and-delete-http-methods",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/features/elenaAPITesting.feature",
+    "tags": [
+      {
+        "name": "@api",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 6
+        }
+      }
+    ]
+  }
+]
